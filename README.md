@@ -126,7 +126,7 @@ jika IP yang didapat sesuai dengan range IP DHCP maka konfigurasi sudah berhasil
 
 ![gambar](https://github.com/riskiferdian/Jarkom_Modul3_Lapres_A13/blob/main/images/20.png)
 
-*Lanjutan soal *
+*Lanjutan soal*
 Bu Meguri adalah dosbing yang suka overthinking. Ia tidak ingin jaringan lokalnya terhubung ke internet secara langsung. Sehingga ia memberi tugas tambahan pada Anri untuk membuatkan Proxy sebagai penghubung jaringan lokal ke internet. Ada beberapa ketentuan yang harus dipenuhi dalam pembuatan Proxy ini. Pertama, akses ke proxy hanya bisa dilakukan oleh Anri sendiri sebagai user TA.
 ## (7) User autentikasi milik Anri memiliki format: ● User : userta_yyy ● Password : inipassw0rdta_yyy Keterangan : yyy adalah nama kelompok masing-masing. Contoh: userta_c01 Anri sudah menjadwal pengerjaan TA-nya
 ### Penyelesaian :
@@ -155,15 +155,15 @@ deny_info http://monta.if.its.ac.id <br/>
 Note : File error page bisa diunduh dengan cara wget 10.151.36.202/error403.tar.gz Extract : tar -xvf error403.tar.gz
 ### Penyelesaian :
 Pindah direktori ke errors dengan mengetikkan <br/>
-cd /usr/share/squid/errors <br/>
+*cd /usr/share/squid/errors* <br/>
 lalu jalankan perintah berikut untuk move <br/>
-mv /usr/share/squid/errors/en /usr/share/squid/errors/en1 <br/>
+*mv /usr/share/squid/errors/en /usr/share/squid/errors/en1* <br/>
 kemudian buat direktori baru <br/>
-mkdir /usr/share/squid/errors/en <br/>
+*mkdir /usr/share/squid/errors/en* <br/>
 download file <br/>
-wget 10.151.36.202/ERR_ACCESS_DENIED <br/>
+*wget 10.151.36.202/ERR_ACCESS_DENIED* <br/>
 kemudian copy <br/>
-cp -r ERR_ACCESS_DENIED /usr/share/squid/errors/en <br/>
+*cp -r ERR_ACCESS_DENIED /usr/share/squid/errors/en* <br/>
 ## (12) Karena Bu Meguri dan Anri adalah tipe orang pelupa, maka untuk memudahkan mereka, Anri memiliki ide ketika menggunakan proxy cukup dengan mengetikkan domain janganlupa-ta.yyy.pw dan memasukkan port 8080. Keterangan : yyy adalah nama kelompok masing-masing. Contoh: janganlupa-ta.c01.pw
 Bantu Anri menyelesaikan TA nya dibawah bimbingan Bu Meguri!
 ### Penyelesaian :
