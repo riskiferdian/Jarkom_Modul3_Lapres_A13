@@ -1,11 +1,17 @@
+# Laporan Praktikum Modul 3
+
 Anri adalah seorang mahasiswa tingkat akhir yang sedang mengerjakan TA mengenai DHCP dan Proxy. Bu Meguri sebagai dosen pembimbing Anri memberikan tugas pertamanya,
-(1) yaitu untuk membuat topologi jaringan demi kelancaran TA-nya dengan kriteria sebagai berikut: 
-1
-Penyelesaian :
-2
-Anri sudah pernah mempelajari teknik Jaringan Komputer sehingga Anri dapat membuat topologi tersebut dengan mudah. Bu Meguri memerintahkan Anri untuk menjadikan SURABAYA sebagai router, MALANG sebagai DNS Server, TUBAN sebagai DHCP server, serta MOJOKERTO sebagai Proxy server, dan UML lainnya sebagai client. Bu Meguri berpesan pada Anri untuk menyusun topologi secara hati-hati dan memperhatikan gambar topologi yang diberikan Bu Meguri. Karena TUBAN jauh dari client, maka perlu adanya perantara agar bisa saling terhubung.
-(2) SURABAYA ditunjuk sebagai perantara (DHCP Relay) antara DHCP Server dan client. 
-Penyelesaian :
+## (1) yaitu untuk membuat topologi jaringan demi kelancaran TA-nya dengan kriteria sebagai berikut: 
+
+![gambar](https://github.com/riskiferdian/Jarkom_Modul3_Lapres_A13/blob/main/images/1.png)
+
+### Penyelesaian
+
+![gambar](https://github.com/riskiferdian/Jarkom_Modul3_Lapres_A13/blob/main/images/2.png)
+
+
+## (2) SURABAYA ditunjuk sebagai perantara (DHCP Relay) antara DHCP Server dan client. 
+### Penyelesaian 
 Install dulu “apt-get install isc-dhcp-server”
 Tentukan interface mana yang akan diberikan layanan DHCP dengan perintah
 nano /etc/default/isc-dhcp-server
