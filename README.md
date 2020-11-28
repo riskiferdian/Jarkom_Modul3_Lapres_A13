@@ -168,12 +168,12 @@ kemudian copy <br/>
 Bantu Anri menyelesaikan TA nya dibawah bimbingan Bu Meguri!
 ### Penyelesaian :
 Buka uml malang kemudian ketikkan perintah berikut <br/>
-Nano /etc/bind/named.conf.local  <br/>
+nano /etc/bind/named.conf.local  <br/>
 
 ![gambar](https://github.com/riskiferdian/Jarkom_Modul3_Lapres_A13/blob/main/images/23.png)
 
 Selanjutnya ketikkan perintah berikut <br/> 
-Nano /etc/bind/jarkom/janganlupa-ta.a13.pw  <br/>
+nano /etc/bind/jarkom/janganlupa-ta.a13.pw  <br/>
 
 ![gambar](https://github.com/riskiferdian/Jarkom_Modul3_Lapres_A13/blob/main/images/24.png)
 
